@@ -16,7 +16,7 @@ cd deteccion-rostros
 3-La ventana mostrara la transmision en tiempo real de la camara.
 Presiona la tecla "q" para cerrar el programa
 
-#Descripcion del programa
+# Descripcion del programa
 Carga del Clasificador Haar Cascade: Se utiliza el archivo haarcascade_frontalface_default.xml para identificar rostros en las imagenes.
 
 Captura de la camara: Se usa cv2.VideoCapture para acceder a la camara del dispositivo.
