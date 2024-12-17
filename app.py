@@ -2,7 +2,7 @@ import cv2
 import matplotlib.pyplot as plt
 import keyboard
 
-face_cascade = cv2.CascadeClassifier('C:/Users/migue/Downloads/haarcascade_frontalface_default.xml')
+face_cascade = cv2.CascadeClassifier('./Deteccion/haarcascade_frontalface_default.xml')#ubicacion del archivo 
 cap = cv2.VideoCapture(0)
 
 while True:
@@ -26,7 +26,7 @@ while True:
     plt.pause(0.01)
     plt.clf()
 
-    # Detectar si se presiona la tecla 'q'
+    # Detectar si se presiona la tecla 'q' para cerrar el programa
     if keyboard.is_pressed('q'):
         print("Saliendo del programa...")
         break
