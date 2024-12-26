@@ -7,7 +7,7 @@ Antes de ejecutar el programa, instala los siguientes requisitos:
 -El archivo Haar Cascade (haarcascade_frontalface_default.xml) es necesario para la detección de rostros. Descargalo desde (https://github.com/opencv/opencv/tree/master/data/haarcascades) y guardalo en la misma carpeta que el script o en una ubicacion accesible.
 
 # Como ejecutar el programa
-1-Clona el repositorio git clone https://github.com/tu_usuario/deteccion-rostros.git
+1-Clona el repositorio git clone https://github.com/Miguel-Mazziotti/deteccion-rostros
 cd deteccion-rostros
 
 2-Ejecuta el script
